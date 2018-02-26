@@ -1,0 +1,99 @@
+/* VARIABLES */
+/* BORDER-BOX */
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* COMMON */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  color: #666666;
+  font-weight: 300;
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 500;
+  color: #000000; }
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 300;
+  color: #000000; }
+
+h3 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #000000; }
+
+a {
+  color: #000000;
+  font-weight: 500;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+.wrapper {
+  max-width: 996px;
+  margin: 0 auto; }
+  @media screen and (max-width: 1000px) {
+    .wrapper {
+      width: 94%;
+      padding: 10px; } }
+
+/*  HEADER  */
+header {
+  padding: 40px 0; }
+
+#header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+#aim_logo {
+  width: 230px; }
+  #aim_logo img {
+    width: 100%;
+    height: auto; }
+
+#header_text_container {
+  padding-left: 40px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column; }
+  #header_text_container h1 {
+    margin-bottom: 5px; }
+  #header_text_container h2 {
+    margin-top: 5px; }
+
+/*  SECTIONS  */
+section {
+  margin-bottom: 40px; }
+
+.footer_logos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap; }
+  .footer_logos img {
+    padding: 15px;
+    margin: 5px;
+    width: 200px;
+    height: auto;
+    text-align: center; }
