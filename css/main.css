@@ -101,6 +101,9 @@ header {
 section, footer {
   margin-bottom: 40px; }
 
+ul {
+  padding-left: 15px; }
+
 .footer_logos {
   display: flex;
   justify-content: flex-start;
