@@ -110,9 +110,8 @@ ul {
   align-items: center;
   flex-wrap: wrap; }
   .footer_logos img {
-    padding: 15px;
-    margin: 5px;
-    width: 200px;
+    margin: 10px;
+    width: 185px;
     height: auto;
     text-align: center; }
   @media screen and (max-width: 480px) {
